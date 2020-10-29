@@ -52,6 +52,8 @@ div.landing_ribbon {
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+    font-size: 18px;
+    font-weight: 600;
   }
   .centeredHeading {
     position: absolute;
@@ -298,12 +300,12 @@ color:white
   font-size: 13px;
   color: rgba(58, 133, 191, 0.75);
   letter-spacing: 1px;
-  line-height: 25px;
+  line-height: 20px;
   border: 2px solid #0d8c80;
   border-radius: 40px;
   background: transparent;
   transition: all 0.3s ease 0s;
-  width:25%
+  width:30%
 }
 
 
@@ -311,14 +313,13 @@ color:white
 @media screen and (max-width: 1170px){
   .btn-primary {
     font-size: 13px;
-    color: rgba(58, 133, 191, 0.75);
     letter-spacing: 1px;
-    line-height: 25px;
+    line-height: 20px;
     border: 2px solid #0d8c80;
     border-radius: 40px;
     background: transparent;
     transition: all 0.3s ease 0s;
-    width:30%
+    width:25%
   }
   
 .new-home-look-1, .new-home-look-2 {
