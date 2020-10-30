@@ -1,168 +1,156 @@
  /* Style the video: 100% width and height to cover the entire window */
- .main{
-   position: relative;
- }
-
- #myVideo {
-    position: relative;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    min-width: 100%;
-    filter: brightness(50%);
-    min-height: 70%;
-    height: 600px;
-    object-fit: cover;
-    z-index: -100;
-  }
-  
-  /* Add some content at the bottom of the video/page */
-  .content {
-    position: relative;
-    bottom: 0;
-    background: rgba(0, 0, 0, 0.5);
-    color: #f1f1f1;
-    width: 100%;
-    padding: 20px;
-  }
-  
-  .landing_content {
-    position: absolute;
-    top: 5%;
-    left: 0px;
-    width: 100%;
-    height: 80%;
-    z-index: 3;
-    text-align: center;
-    color: #fff;
-    padding: 0px 10px;
-    -webkit-transform-style: preserve-3d;
-    -moz-transform-style: preserve-3d;
-    transform-style: preserve-3d;
+.main{
+      position: relative;
+}
+#myVideo {
+      position: relative;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      min-width: 100%;
+      filter: brightness(50%);
+      min-height: 70%;
+      height: 600px;
+      object-fit: cover;
+      z-index: -100;
+}
+.landing_content {
+      position: absolute;
+      top: 5%;
+      left: 0px;
+      width: 100%;
+      height: 80%;
+      z-index: 3;
+      text-align: center;
+      color: #fff;
+      padding: 0px 10px;
+      -webkit-transform-style: preserve-3d;
+      -moz-transform-style: preserve-3d;
+      transform-style: preserve-3d;
 }
 div.landing_ribbon {
-  background: rgba(17, 133, 70, 1);
-  padding: 5vh 20px;
-  color: #fff;
+      background: rgba(17, 133, 70, 1);
+      padding: 5vh 20px;
+      color: #fff;
 
-  margin-top: -2%;
+      margin-top: -2%;
 }
-  div.landing_ribbon h2{
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-    font-size: 18px;
-    font-weight: 600;
+div.landing_ribbon h2{
+      text-align: center;
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;
+      font-size: 18px;
+      font-weight: 600;
+}
+.centeredHeading {
+      position: absolute;
+      top: 45%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: white;
+      font-size: 32px;
+      text-align: center;
+}
+.centeredText {
+      position: absolute;
+      top: 53%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: white;
+      font-size: 18px;
   }
-  .centeredHeading {
-    position: absolute;
-    top: 45%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
-    font-size: 32px;
-    text-align: center;
-  }
-  .centeredText {
-    position: absolute;
-    top: 53%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
-    font-size: 18px;
-  }
-  .centeredButton{
-    position: absolute;
-    top: 65%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
-    font-family: 'Lato', sans-serif;
-    font-size: 18px;
-  }
-   .btn-success{
-        background: rgba(17, 133, 70, 0.8);
-        color: #fff;
-        margin: 20px;
-        padding: 6px;
-        min-width: 150px;
-        border-radius: 0px;
-        font-size: 16px;
-        font-weight: 400;
-        text-transform: uppercase;
-        border: none !important;
-        font-family: 'Lato', sans-serif;
-  }
-  .btn-danger{
-    background: rgba(255, 255, 255, 0.8);
-    color: rgba(17, 133, 70, 0.8);;
-    margin: 20px;
-    padding: 6px;
-    min-width: 150px;
-    border-radius: 0px;
-    font-size: 16px;
-    font-weight: 400;
-    text-transform: uppercase;
-    border: none !important;
-    font-family: 'Lato', sans-serif;
+.centeredButton{
+      position: absolute;
+      top: 65%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: white;
+      font-family: 'Lato', sans-serif;
+      font-size: 18px;
+}
+.btn-success{
+      background: rgba(17, 133, 70, 0.8);
+      color: #fff;
+      margin: 20px;
+      padding: 6px;
+      min-width: 150px;
+      border-radius: 0px;
+      font-size: 16px;
+      font-weight: 400;
+      text-transform: uppercase;
+      border: none !important;
+      font-family: 'Lato', sans-serif;
+}
+.btn-danger{
+      background: rgba(255, 255, 255, 0.8);
+      color: rgba(17, 133, 70, 0.8);;
+      margin: 20px;
+      padding: 6px;
+      min-width: 150px;
+      border-radius: 0px;
+      font-size: 16px;
+      font-weight: 400;
+      text-transform: uppercase;
+      border: none !important;
+      font-family: 'Lato', sans-serif;
 }
 .new-home-look .btn-rounded {
-  padding: 2px 20px;
-  border-color: transparent;
+      padding: 2px 20px;
+      border-color: transparent;
 }
 .new-home-look-1 .look-1-Image1{
-  width: 290px;
-  border-radius: 30px;
-  }
+      width: 290px;
+      border-radius: 30px;
+    }
 .new-home-look-1 .look-1-Image2{
-  width: 200px;
-  border-radius: 50%;
-  }
+      width: 200px;
+      border-radius: 50%;
+    }
 .new-home-look-2 img{
-  width: 400px;
-  border-radius: 25px;
-  }
+      width: 400px;
+      border-radius: 25px;
+    }
 .new-home-look-2 h4{
-  color: white;
-  padding-top: 30px;
-  }
+      color: white;
+      padding-top: 30px;
+    }
 .new-home-look-2 p{
-  font-size: 12px; 
-  color: #fff;
-  padding-top: 43px;
-  text-transform: uppercase;
-}
+      font-size: 12px; 
+      color: #fff;
+      padding-top: 43px;
+      text-transform: uppercase;
+    }
 .btn-rounded {
-  border-radius: 20px;
-  background: transparent;
-  border: 2px solid #fff;
-  min-width: 200px;
-  padding: 6px;
-  text-transform: uppercase;
-  font-weight: 500;
-  font-size: 15px;
-  display: inline-block;
-}
+      border-radius: 20px;
+      background: transparent;
+      border: 2px solid #fff;
+      min-width: 200px;
+      padding: 6px;
+      text-transform: uppercase;
+      font-weight: 500;
+      font-size: 15px;
+      display: inline-block;
+    }
 .new-home-look-1-button{
-  background: #148e80;
-  color: #fff;
-}
+      background: #148e80;
+      color: #fff;
+    }
 .new-home-look-2-button{
-  background: #fff;
-  color: #148e80;
-}
+      background: #fff;
+      color: #148e80;
+    }
 @media (max-width: 480px) {
-  .main{
-    position: relative;
-  }
-  div.landing_ribbon h2{
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    width: auto;
-  }
-    #myVideo {
+.main{
+      position: relative;
+    }
+div.landing_ribbon h2{
+      text-align: center;
+      margin-left: auto;
+      margin-right: auto;
+      width: auto;
+    }
+#myVideo {
         position: relative;
         right: 0;
         bottom: 0;
@@ -174,46 +162,46 @@ div.landing_ribbon {
         z-index: -100;
       }
   .centeredHeading {
-    position: absolute;
-    top: 35%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
-    font-size: 30px;
-  }
+        position: absolute;
+        top: 35%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        font-size: 30px;
+      }
   .centeredText {
-    position: absolute;
-    top: 53%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
-    font-size: 18px;
-  }
+        position: absolute;
+        top: 53%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        font-size: 18px;
+     }
   .centeredButton{
-    position: absolute;
-    top: 70%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
-    font-family: 'Lato', sans-serif;
-    font-size: 18px;
-  }
+        position: absolute;
+        top: 70%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        font-family: 'Lato', sans-serif;
+        font-size: 18px;
+      }
   div.landing_ribbon {
-    background: rgba(17, 133, 70, 1);
-    padding: 5vh 20px;
-    color: #fff;
-    text-align: center;
-    margin-top: -2%;
+        background: rgba(17, 133, 70, 1);
+        padding: 5vh 20px;
+        color: #fff;
+        text-align: center;
+        margin-top: -2%;
+      }   
   }
-}
 @media (min-width: 481px) and (max-width: 1024px) {
-  div.landing_ribbon h2{
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    width: auto;
+div.landing_ribbon h2{
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        width: auto;
   }
-    #myVideo {
+  #myVideo {
         position: relative;
         right: 0;
         bottom: 0;
@@ -224,7 +212,7 @@ div.landing_ribbon {
         object-fit: cover;
         z-index: -100;
       }
-    .centeredHeading {
+      .centeredHeading {
         position: absolute;
         top: 35%;
         left: 50%;
@@ -234,7 +222,7 @@ div.landing_ribbon {
         width: 100%;
        text-align: center;
       }
-      .centeredText {
+.centeredText {
         position: absolute;
         top: 45%;
         left: 50%;
@@ -242,7 +230,7 @@ div.landing_ribbon {
         color: white;
         font-size: 18px;
       }
-      .centeredButton{
+.centeredButton{
         position: absolute;
         top: 60%;
         left: 50%;
@@ -254,21 +242,21 @@ div.landing_ribbon {
 }
 @media only screen and (max-width: 600px) {
   .new-home-look-2 img{
-    width: 250px;
-    border-radius: 25px;
+        width: 250px;
+        border-radius: 25px;
     }
   div.landing_ribbon h2{
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    width: auto;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        width: auto;
   }
   div.landing_ribbon {
-    background: rgba(17, 133, 70, 1);
-    padding: 5vh 20px;
-    color: #fff;
-    text-align: center;
-    margin-top: -2%;
+        background: rgba(17, 133, 70, 1);
+        padding: 5vh 20px;
+        color: #fff;
+        text-align: center;
+        margin-top: -2%;
   }
     #myVideo {
         position: relative;
@@ -283,118 +271,115 @@ div.landing_ribbon {
       }
 
   .centeredHeading {
-    position: absolute;
-    top: 35%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
-    font-size: 30px;
-    width: 100%;
-    text-align: center;
+        position: absolute;
+        top: 35%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        font-size: 30px;
+        width: 100%;
+        text-align: center;
   }
   .centeredText {
-    position: absolute;
-    top: 46%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
-    font-size: 18px;
-    width: 86%;
-    text-align: center;
+        position: absolute;
+        top: 46%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        font-size: 18px;
+        width: 86%;
+        text-align: center;
   }
   .centeredButton{
-    position: absolute;
-    top: 65%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
-    font-family: 'Lato', sans-serif;
-    font-size: 18px;
-  }
+        position: absolute;
+        top: 65%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        font-family: 'Lato', sans-serif;
+        font-size: 18px;
+      }
     
 }
 
 .new-home-look {
-  display: inline-block;
-  width: 100%;
-  background: #e7e7e8;
-  margin-bottom: -7px;
-  background-image: url("/../../../assets/bg2.jpg");
+        display: inline-block;
+        width: 100%;
+        background: #e7e7e8;
+        margin-bottom: -7px;
+        background-image: url("/../../../assets/bg2.jpg");
 
 }
 .new-home-look-1 {
-  padding: 40px 50px 40px 30px;
+        padding: 40px 50px 40px 30px;
 }
 .new-home-look-1, .new-home-look-2 {
-  padding: 40px;
-  display: inline-block;
-  height: 520px;
-  overflow: hidden;
-  float: left;
-  background-size: cover;
-  background-position: left bottom;
-  background-repeat: no-repeat;
-  width: 50%;
-  text-align: center;
-  position: relative;
+        padding: 40px;
+        display: inline-block;
+        height: 520px;
+        overflow: hidden;
+        float: left;
+        background-size: cover;
+        background-position: left bottom;
+        background-repeat: no-repeat;
+        width: 50%;
+        text-align: center;
+        position: relative;
 }
 .new-home-look h3 h4{
-color:white
+        color:white
 }
-
 .new-home-look-2 {
-  padding: 50px 50px 20px 30px;
-  width: calc(50% + 80px);
-  -webkit-clip-path: polygon(80px 0, 100% 0%, 100% 100%, 0% 100%);
-  clip-path: polygon(80px 0, 100% 0%, 100% 100%, 0% 100%);
-  margin-left: -80px;
-  background-image: url("/../../../assets/fields.jpeg");
+        padding: 50px 50px 20px 30px;
+        width: calc(50% + 80px);
+        -webkit-clip-path: polygon(80px 0, 100% 0%, 100% 100%, 0% 100%);
+        clip-path: polygon(80px 0, 100% 0%, 100% 100%, 0% 100%);
+        margin-left: -80px;
+        background-image: url("/../../../assets/fields.jpeg");
 }
-
-
 .btn-primary {
-  font-size: 13px;
-  color: rgba(58, 133, 191, 0.75);
-  letter-spacing: 1px;
-  line-height: 20px;
-  border: 2px solid #0d8c80;
-  border-radius: 40px;
-  background: transparent;
-  transition: all 0.3s ease 0s;
-  width:30%
+        font-size: 13px;
+        color: rgba(58, 133, 191, 0.75);
+        letter-spacing: 1px;
+        line-height: 20px;
+        border: 2px solid #0d8c80;
+        border-radius: 40px;
+        background: transparent;
+        transition: all 0.3s ease 0s;
+        width:30%
 }
 
 
 
 @media screen and (max-width: 1170px){
   .btn-primary {
-    font-size: 13px;
-    letter-spacing: 1px;
-    line-height: 20px;
-    border: 2px solid #0d8c80;
-    border-radius: 40px;
-    background: transparent;
-    transition: all 0.3s ease 0s;
-    width:25%
+        font-size: 13px;
+        letter-spacing: 1px;
+        line-height: 20px;
+        border: 2px solid #0d8c80;
+        border-radius: 40px;
+        background: transparent;
+        transition: all 0.3s ease 0s;
+        width:25%
   }
   
 .new-home-look-1, .new-home-look-2 {
-    width: 100%;
-    margin: 0px;
-    height: auto;
-    clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);
-    padding: 30px;
+        width: 100%;
+        margin: 0px;
+        height: auto;
+        clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);
+        padding: 30px;
 }
 .new-home-look-2 {
-    background-image: url("/../../../assets/fields.jpeg");
+        background-image: url("/../../../assets/fields.jpeg");
 }
 .new-home-look-1, .new-home-look-2 {
-    display: inline-block;
-    overflow: hidden;
-    background-size: cover;
-    background-position: left bottom;
-    background-repeat: no-repeat;
-    text-align: center;
-    position: relative;
+        display: inline-block;
+        overflow: hidden;
+        background-size: cover;
+        background-position: left bottom;
+        background-repeat: no-repeat;
+        text-align: center;
+        position: relative;
 }
 }
