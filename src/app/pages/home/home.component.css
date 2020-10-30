@@ -2,7 +2,7 @@
  .main{
    position: relative;
  }
- 
+
  #myVideo {
     position: relative;
     top: 0;
@@ -61,6 +61,8 @@ div.landing_ribbon {
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
+    font-size: 32px;
+    text-align: center;
   }
   .centeredText {
     position: absolute;
@@ -72,7 +74,7 @@ div.landing_ribbon {
   }
   .centeredButton{
     position: absolute;
-    top: 60%;
+    top: 65%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
@@ -105,7 +107,51 @@ div.landing_ribbon {
     border: none !important;
     font-family: 'Lato', sans-serif;
 }
-
+.new-home-look .btn-rounded {
+  padding: 2px 20px;
+  border-color: transparent;
+}
+.new-home-look-1 .look-1-Image1{
+  width: 290px;
+  border-radius: 30px;
+  }
+.new-home-look-1 .look-1-Image2{
+  width: 200px;
+  border-radius: 50%;
+  }
+.new-home-look-2 img{
+  width: 400px;
+  border-radius: 25px;
+  }
+.new-home-look-2 h4{
+  color: white;
+  padding-top: 30px;
+  }
+.new-home-look-2 p{
+  font-size: 12px; 
+  color: #fff;
+  padding-top: 43px;
+  text-transform: uppercase;
+}
+.btn-rounded {
+  border-radius: 20px;
+  background: transparent;
+  border: 2px solid #fff;
+  min-width: 200px;
+  padding: 6px;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 15px;
+  display: inline-block;
+}
+.new-home-look-1-button{
+  background: #148e80;
+  color: #fff;
+}
+.new-home-look-2-button{
+  background: #fff;
+  color: #148e80;
+}
 @media (max-width: 480px) {
   .main{
     position: relative;
@@ -133,7 +179,7 @@ div.landing_ribbon {
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
-    font-size: 25px;
+    font-size: 30px;
   }
   .centeredText {
     position: absolute;
@@ -184,11 +230,13 @@ div.landing_ribbon {
         left: 50%;
         transform: translate(-50%, -50%);
         color: white;
-        font-size: 25px;
+        font-size: 30px;
+        width: 100%;
+       text-align: center;
       }
       .centeredText {
         position: absolute;
-        top: 53%;
+        top: 45%;
         left: 50%;
         transform: translate(-50%, -50%);
         color: white;
@@ -196,16 +244,19 @@ div.landing_ribbon {
       }
       .centeredButton{
         position: absolute;
-        top: 70%;
+        top: 60%;
         left: 50%;
         transform: translate(-50%, -50%);
         color: white;
         font-family: 'Lato', sans-serif;
         font-size: 18px;
       }
-  
 }
 @media only screen and (max-width: 600px) {
+  .new-home-look-2 img{
+    width: 250px;
+    border-radius: 25px;
+    }
   div.landing_ribbon h2{
     text-align: center;
     margin-left: auto;
@@ -230,25 +281,30 @@ div.landing_ribbon {
         object-fit: cover;
         z-index: -100;
       }
+
   .centeredHeading {
     position: absolute;
     top: 35%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
-    font-size: 25px;
+    font-size: 30px;
+    width: 100%;
+    text-align: center;
   }
   .centeredText {
     position: absolute;
-    top: 53%;
+    top: 46%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
     font-size: 18px;
+    width: 86%;
+    text-align: center;
   }
   .centeredButton{
     position: absolute;
-    top: 75%;
+    top: 65%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
